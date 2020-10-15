@@ -10,8 +10,6 @@ export class Main {
 
     constructor() {
         const files: string[] = fs.readdirSync(this.sourceBase);
-        console.log(files.length);
-        console.log(files[0])
 
         for (let i = 0; i < files.length; i++) {
             console.log("read and parse the annotation " + files[i]);
