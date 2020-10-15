@@ -1,0 +1,33 @@
+{
+  "name": "typescript-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node-dev --respawn src/index.ts",
+    "dev": "nodemon --exec ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SerQuicky/node-typescript-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SerQuicky/node-typescript-example/issues"
+  },
+  "homepage": "https://github.com/SerQuicky/node-typescript-example#readme",
+  "dependencies": {
+    "@types/xml2js": "^0.4.5",
+    "xml2js": "^0.4.23"
+  },
+  "devDependencies": {
+    "@types/node": "^14.11.8",
+    "nodemon": "^2.0.4",
+    "ts-node": "^9.0.0",
+    "ts-node-dev": "^1.0.0-pre.62",
+    "typescript": "^3.9.7"
+  }
+}
