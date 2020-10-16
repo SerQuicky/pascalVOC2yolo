@@ -18,3 +18,4 @@ cat
 
 The terminal will display each file that got converted.
 
+![terminal](https://github.com/SerQuicky/pascalVOC2yolo/blob/main/md/terminal.png)
